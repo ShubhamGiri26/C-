@@ -1,8 +1,8 @@
 #include<iostream.h>
-#include<stdio.h>
-int sum(int x, int y)
-float sum(float x, float y)
-int sum(int x, int y,int z)
+using namespace std;
+int sum(int x, int y);
+float sum(float x, float y);
+int sum(int x, int y,int z);
 void main()
 {
 cout<<"Sum="<<Sum(2,3)<<endl;
