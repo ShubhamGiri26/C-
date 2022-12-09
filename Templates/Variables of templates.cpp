@@ -5,14 +5,13 @@ class x
 {
 
     public:
-    X(T,i)
+    X(T i)
     {
-        cout<<"\n size"<<sizeof(i);
+        cout<<"\n size"<< sizeof(i);
     }
-}
-
-void main()
+};
+int main()
 {
-    X<int> o1<2>;
-    X<char>o2<'x'>;
+    X <int> o1(2);
+    X <char> o2('x');
 }
